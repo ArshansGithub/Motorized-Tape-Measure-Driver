@@ -5,8 +5,11 @@ This project was part of my AP Physics 2 final, specifically the last energy tra
 
 I’m still fairly novice to CAD and mechanical design, so this build was a crash course in tolerances, iterating on prototypes, and troubleshooting unexpected mechanical issues. I used my **Bambu Lab P1S** to print most of the parts in both **PLA** and **TPU** filaments.
 
-![Main Assembly Photo](https://github.com/user-attachments/assets/c855e882-6582-406c-947e-b412dc4ccfbe)
-![Mechanism in Action](https://github.com/user-attachments/assets/13406976-9949-4ce1-a7e1-22ab9fe750ff)
+[https://github.com/user-attachments/assets/6b1b6aa8-f43f-4f7a-9d7e-347c0948d33c](https://github.com/user-attachments/assets/6b1b6aa8-f43f-4f7a-9d7e-347c0948d33c)
+
+<img src="https://github.com/user-attachments/assets/c855e882-6582-406c-947e-b412dc4ccfbe" width="450" alt="Main Assembly Photo">
+<img src="https://github.com/user-attachments/assets/13406976-9949-4ce1-a7e1-22ab9fe750ff" width="450" alt="Mechanism in Action">
+
 
 ---
 
@@ -29,29 +32,35 @@ The final device is fairly compact, designed to fit within a 60 × 60 ×�
 
 #### Key Components
 
-- **Motors:** Two [uxcell GA12-N20 6V 150RPM DC Gear Motors](https://www.amazon.com/dp/B07N1FJN3N) (encoders unused).  
-- **Baseplate:** 3D-printed in PLA, with embedded nuts for mounting.  
-
-  ![Baseplate](https://github.com/user-attachments/assets/5b9b80b6-13d9-4dfb-a26d-ef27f1c29965)
-
-- **Wheel Hub:** 3D-printed in PLA, with embedded nuts for mounting. Circular hole for motor gearbox shaft coupler  
-
-  ![Wheel Hub](https://github.com/user-attachments/assets/1a7fbbd4-d1b1-4ac3-91cc-5ef1450495a7)
-
-- **TPU Treads:** Flexible, rubber-like grip that I could manufacture at home.
-
-  ![TPU Tread 1](https://github.com/user-attachments/assets/076cf6f8-e170-43f1-b12e-cf87fc1249b)
+- **Motors:** Two [uxcell GA12-N20 6V 150RPM DC Gear Motors](https://www.amazon.com/dp/B07N1FJN3N) (encoders unused).
   
-  ![TPU Tread 2](https://github.com/user-attachments/assets/7065bbb6-f9f5-4af2-83d3-15b5eff3f96c)
+  <img src="https://github.com/user-attachments/assets/c31b64e7-0573-4076-8b50-4fe0fd1e5648" width="256" alt="Motor Mount">
 
-- **Modular Inserts:** 3D-printed in PLA, with embedded nuts for mounting.
+- **Baseplate:** 3D-printed in PLA, with embedded nuts for mounting.
 
-  ![Modular Insert 1](https://github.com/user-attachments/assets/e17ba553-5fa6-4e00-a1a2-8313cf6dafd6)
-  
-  ![Modular Insert 2](https://github.com/user-attachments/assets/24875e90-e150-4755-9177-6722f3048fc7)
+  <img src="https://github.com/user-attachments/assets/5b9b80b6-13d9-4dfb-a26d-ef27f1c29965" width="256" alt="Baseplate">
+
+- **Wheel Hub:**  
+  3D-printed in PLA, with embedded nuts for mounting. Circular hole for motor gearbox shaft coupler
+
+  <img src="https://github.com/user-attachments/assets/1a7fbbd4-d1b1-4ac3-91cc-5ef1450495a7" width="512" alt="Wheel Hub">
+
+- **TPU Treads:**  
+  Flexible, rubber-like grip that I could manufacture at home.
+
+  <img src="https://github.com/user-attachments/assets/20709778-e9b0-4e56-9dbe-9e8eafb8af16" width="512" alt="TPU Tread 1">  
+  <img src="https://github.com/user-attachments/assets/7065bbb6-f9f5-4af2-83d3-15b5eff3f96c" width="512" alt="TPU Tread 2">
+
+- **Modular Inserts:**  
+  3D-printed in PLA, with embedded nuts for mounting.
+
+  <img src="https://github.com/user-attachments/assets/e17ba553-5fa6-4e00-a1a2-8313cf6dafd6" width="512" alt="Modular Insert 1">  
+  <img src="https://github.com/user-attachments/assets/24875e90-e150-4755-9177-6722f3048fc7" width="512" alt="Modular Insert 2">
 
 - **608 Bearings & Steel Shaft:**  
   Stabilize the motor shafts to prevent bending.
+  
+  <img src="https://github.com/user-attachments/assets/a6bfdca6-c959-4610-ab15-ab014c3494e3" width="512" alt="608 Bearing Mount">
 
 - **Tape Measure:**  
   A sturdy, heavy-duty type that isn’t too glossy.
@@ -94,7 +103,7 @@ Initially, I wanted one motorized wheel paired with a passive wheel on the other
 
 ### Electronics
 - **Controller:** [Arduino Mega 2560](https://www.amazon.com/ARDUINO-MEGA-2560-REV3-A000067)
-- **Motor Driver:** Standard H-bridge driver (e.g., L298N or a similar module)
+- **Motor Driver:** [HiLetgo L298N](https://www.amazon.com/dp/B07BK1QL5T)
 - **Time-of-Flight Sensor (TOF):** [VL53L1X](https://www.amazon.com/dp/B07F3TV3G4) for detecting the falling domino (final trigger)
 - **Power Supply:** [30V 10A Bench Power Supply](https://www.amazon.com/dp/B08DJ1FDXV). Initially planned for batteries, but the rules allowed an external plug.
 - **Misc. Wiring:** Jumper wires, alligator clips, ferrules—no soldering required.
@@ -130,16 +139,17 @@ Initially, I wanted one motorized wheel paired with a passive wheel on the other
 
 ---
 
+
 ## Future Improvements
 
-- **Angle the Motors & Tape Measurer:** Rather than manually tilting the entire mechanism, I’d design angled motor mounts so the tape measure extends utilizing its concavity for rigidity.
+- **Angle the Motors:** Rather than manually tilting the entire mechanism, I’d design angled motor mounts so the tape measure remains stable upright.
 - **Higher-Torque Motors:** Ideally, 12 V motors with more torque would prevent stalling and might reach that 25 ft mark.
 - **Custom Tape Measure Housing:** Integrating the tape measure into the baseplate more tightly could reduce overall size and improve reliability.
 
 ---
 
 ## Conclusion
-Building this motorized tape measure driver was a huge learning experience for me as an aspiring engineering student, novice to CAD and mechanical design. Although I fell short of my ambitious 25-foot extension goal, I managed to reach about 8 feet—enough to stand out in my AP Physics 2 class. The project gave me hands-on lessons in CAD (Computer Aided Design), torque requirements, tread design, and the value of constant iteration.
+Building this motorized tape measure driver was a huge learning experience for me as an aspiring engineering student, novice to CAD and mechanical design. Although I fell short of my ambitious 25-foot extension goal, I managed to reach about 8 feet—enough to stand out in my AP Physics 2 class. The project gave me hands-on practice in CAD (Computer Aided Design), torque requirements, tread design, and the value of constant iteration.
 
 ---
 
@@ -152,3 +162,9 @@ Building this motorized tape measure driver was a huge learning experience for m
 - [8 mm Steel Shaft, 60 mm Long](https://www.amazon.com/dp/B0CQTFQ9C9)
 - [SHKI 608 2RS Ball Bearings](https://www.amazon.com/SHKI/dp/B09PKD8QZZ)
 - [Arduino Mega 2560](https://www.amazon.com/ARDUINO-MEGA-2560-REV3-A000067)
+- [HiLetgo L298N](https://www.amazon.com/dp/B07BK1QL5T)
+
+---
+
+## Source Code
+[View the Arduino Code Here](https://github.com/ArshansGithub/Motorized-Tape-Measure-Driver/blob/main/code.ino)

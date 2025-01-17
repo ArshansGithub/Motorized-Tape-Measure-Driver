@@ -102,7 +102,7 @@ Initially, I wanted one motorized wheel paired with a passive wheel on the other
 - **Embedded Nuts:** I paused the 3D prints at specific layer heights to insert nuts. This technique was used for both the baseplate and modular inserts to allow secure bolt mounting.
 
 ### Electronics
-- **Controller:** [Arduino Mega 2560](https://www.amazon.com/ARDUINO-MEGA-2560-REV3-A000067)
+- **Controller:** [Arduino Mega 2560](https://store.arduino.cc/products/arduino-mega-2560-rev3)
 - **Motor Driver:** [HiLetgo L298N](https://www.amazon.com/dp/B07BK1QL5T)
 - **Time-of-Flight Sensor (TOF):** [VL53L1X](https://www.amazon.com/dp/B07F3TV3G4) for detecting the falling domino (final trigger)
 - **Power Supply:** [30V 10A Bench Power Supply](https://www.amazon.com/dp/B08DJ1FDXV). Initially planned for batteries, but the rules allowed an external plug.

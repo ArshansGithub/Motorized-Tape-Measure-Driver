@@ -7,8 +7,8 @@ I’m still fairly novice to CAD and mechanical design, so this build was a cras
 
 [https://github.com/user-attachments/assets/6b1b6aa8-f43f-4f7a-9d7e-347c0948d33c](https://github.com/user-attachments/assets/6b1b6aa8-f43f-4f7a-9d7e-347c0948d33c)
 
-<img src="https://github.com/user-attachments/assets/c855e882-6582-406c-947e-b412dc4ccfbe" width="450" alt="Main Assembly Photo">
-<img src="https://github.com/user-attachments/assets/13406976-9949-4ce1-a7e1-22ab9fe750ff" width="450" alt="Mechanism in Action">
+<img src="https://github.com/user-attachments/assets/c855e882-6582-406c-947e-b412dc4ccfbe" width="375" alt="Main Assembly Photo">
+<img src="https://github.com/user-attachments/assets/13406976-9949-4ce1-a7e1-22ab9fe750ff" width="375" alt="Mechanism in Action">
 
 
 ---

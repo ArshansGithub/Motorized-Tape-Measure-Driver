@@ -167,4 +167,4 @@ Building this motorized tape measure driver was a huge learning experience for m
 ---
 
 ## Source Code
-[View the Arduino Code Here](https://github.com/ArshansGithub/Motorized-Tape-Measure-Driver/blob/main/code.ino)
+[View the Arduino Code Here](https://github.com/ArshansGithub/Motorized-Tape-Measure-Driver/blob/main/main.ino)

@@ -1,7 +1,7 @@
 # Motorized Tape Measure Driver
 
 ## Introduction
-This project was part of my AP Physics 2 final project, specifically the last energy transfer within a larger Rube Goldberg contraption. A domino would fall, triggering a sensor, which in turn activated the motors to drive a tape measure vertically. I originally aimed for a 25-foot extension to break my class record (and last year’s), but due to practical limitations, I managed around 8 feet (still broke this year's record).
+This project was part of my AP Physics 1B final project, specifically the last energy transfer within a larger Rube Goldberg contraption. A domino would fall, triggering a sensor, which in turn activated the motors to drive a tape measure vertically. I originally aimed for a 25-foot extension to break my class record (and last year’s), but due to practical limitations, I managed around 8 feet (still broke this year's record).
 
 I’m still fairly novice to CAD and mechanical design, so this build was a crash course in tolerances, iterating on prototypes, and troubleshooting unexpected mechanical issues. I used my **Bambu Lab P1S** to print most of the parts in both **PLA** and **TPU** filaments.
 
@@ -149,7 +149,7 @@ Initially, I wanted one motorized wheel paired with a passive wheel on the other
 ---
 
 ## Conclusion
-Building this motorized tape measure driver was a huge learning experience for me as an aspiring engineering student, novice to CAD and mechanical design. Although I fell short of my ambitious 25-foot extension goal, I managed to reach about 8 feet—enough to stand out in my AP Physics 2 class. The project gave me hands-on practice in CAD (Computer Aided Design), torque requirements, tread design, and the value of constant iteration.
+Building this motorized tape measure driver was a huge learning experience for me as an aspiring engineering student, novice to CAD and mechanical design. Although I fell short of my ambitious 25-foot extension goal, I managed to reach about 8 feet—enough to stand out in my AP Physics 1B class. The project gave me hands-on practice in CAD (Computer Aided Design), torque requirements, tread design, and the value of constant iteration.
 
 ---
 

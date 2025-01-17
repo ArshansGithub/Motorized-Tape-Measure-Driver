@@ -168,3 +168,15 @@ Building this motorized tape measure driver was a huge learning experience for m
 
 ## Source Code
 [View the Arduino Code Here](https://github.com/ArshansGithub/Motorized-Tape-Measure-Driver/blob/main/main.ino)
+
+---
+
+## Plastic Graveyard
+
+Behold the resting place for every melted misadventure, spaghetti-laden failure, and 
+tragically under-extruded prototype. It’s a towering testament to how many times 
+I whispered, “It’ll be fine,” right before it absolutely wasn’t. 
+May these casualties of CAD forever remind us to measure twice—and pray once.
+
+<img src="https://github.com/user-attachments/assets/84abcfca-3123-4f40-8fd6-284436447b48" width="512" alt="Don't be like me">  
+
